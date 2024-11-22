@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//En"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    <class name="Patient" table="patienttable">
+        <id name="regNo" column="registrationNo"/>
+        <property name="patientName" column="patientName"/>
+        <property name="contactNo" column="contactNo"/>
+        <property name="age" column="age"/>
+        <property name="gender" column="gender"/>
+        <property name="patientDetails" column="patientDetails"/>
+        <property name="diseaseName" column="diseaseName"/>
+        
+    </class>
+</hibernate-mapping>
+
+
+

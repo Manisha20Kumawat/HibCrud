@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//En"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    <class name="Feedback" table="feedbacktable">
+        <id name="regNo" column="registrationNo"/>
+        <property name="Name" column="Name"/>
+        <property name="date" column="date"/>
+        <property name="feedback" column="feedback"/>
+        
+    </class>
+</hibernate-mapping>

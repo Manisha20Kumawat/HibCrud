@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//En"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    <class name="Hospital" table="hospitalinfo">
+        <id name="hospRegNo" column="hospRegNo"/>
+        <property name="hospitalName" column="hospitalName"/>
+        <property name="hospitalId" column="hospitalId"/>
+        <property name="password" column="pass"/>
+        <property name="city" column="city"/>
+        <property name="rank" column="rank"/>
+        <property name="contact" column="contact"/>
+        <property name="email" column="email"/>
+    </class>
+    </hibernate-mapping>
+    

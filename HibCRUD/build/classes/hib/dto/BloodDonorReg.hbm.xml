@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//En"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    <class name="BloodDonorReg" table="bloodDonorTable">
+        <id name="userId" column="userId"/>
+        <property name="Name" column="Name"/>
+        <property name="contact" column="contactNo"/>
+        <property name="email" column="email"/>
+        <property name="address" column="address"/>
+        <property name="city" column="city"/>
+        <property name="gender" column="gender"/>
+        <property name="age" column="age"/>
+        <property name="bloodGroup" column="bloodGroup"/>
+        <property name="occupation" column="occupation"/>
+        <property name="medicalHistory" column="medicalHistory"/>
+        <property name="donorSignature" column="donorSignature"/>
+    </class>
+</hibernate-mapping>
+
